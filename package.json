@@ -1,0 +1,36 @@
+{
+  "name": "nextjs-fullstack-boilerplate",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.20.0",
+    "axios": "^1.7.7",
+    "framer-motion": "^11.5.6",
+    "jose": "^5.9.3",
+    "next": "14.2.13",
+    "next-themes": "^0.3.0",
+    "pg": "^8.13.0",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "bcryptjs": "^2.4.3",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.13",
+    "pnpm": "^9.12.0",
+    "postcss": "^8",
+    "prisma": "^5.20.0",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}
